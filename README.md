@@ -54,7 +54,7 @@ Create a Render **Web Service** from this repository, or use the included `rende
 | `SUPABASE_URL` | Supabase Project URL |
 | `SUPABASE_SERVICE_ROLE_KEY` | Supabase `service_role` secret |
 | `GEMINI_API_KEY` | Gemini API key (optional; server fallback is available) |
-| `GEMINI_MODEL` | `gemini-3.8-flash` |
+| `GEMINI_MODEL` | `gemini-2.0-flash` |
 | `FRONTEND_URL` | Vercel site origin, added after frontend deploy |
 | `DEMO_MODE` | `true` for the hackathon demo |
 

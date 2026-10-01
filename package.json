@@ -1,0 +1,23 @@
+{
+  "name": "signaldesk-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SignalDesk — Automated Support Triage Agent MVP",
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "dev": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev"
+  },
+  "keywords": [
+    "agentic-ai",
+    "support-triage",
+    "gemini",
+    "supabase",
+    "react",
+    "express"
+  ],
+  "author": "SignalDesk Team",
+  "license": "MIT"
+}
